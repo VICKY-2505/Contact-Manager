@@ -17,6 +17,6 @@ public class ContactManager {
                 return contact.phoneNumber;
             }
         }
-        return "Contact not found";
+        return null;
     }
 }
